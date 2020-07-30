@@ -1,7 +1,7 @@
 """ Unit testing for exercises in Python. """
 
 from ex1 import ex1
-#from ex2 import ex2
+from ex2 import ex2
 # from ex3 import ex3
 # from ex4 import ex4
 # from ex5 import ex5
@@ -16,42 +16,43 @@ print('===========')
 ex1.test()
 print('\n')
 
-print('\nEXERCISE 2:')
+ex2 = ex2()
+print('EXERCISE 2:')
+print('===========')
+ex2.test()
+print('\n')
+
+print('\EXERCISE 3:')
 print('===========')
 
 print('\n')
 
-print('\nEXERCISE 3:')
+print('EXERCISE 4:')
 print('===========')
 
 print('\n')
 
-print('\nEXERCISE 4:')
+print('EXERCISE 5:')
 print('===========')
 
 print('\n')
 
-print('\nEXERCISE 5:')
+print('EXERCISE 6:')
 print('===========')
 
 print('\n')
 
-print('\nEXERCISE 6:')
+print('EXERCISE 7:')
 print('===========')
 
 print('\n')
 
-print('\nEXERCISE 7:')
+print('EXERCISE 8:')
 print('===========')
 
 print('\n')
 
-print('\nEXERCISE 8:')
-print('===========')
-
-print('\n')
-
-print('\nEXERCISE 9:')
+print('EXERCISE 9:')
 print('===========')
 
 print('\n')

@@ -83,7 +83,6 @@ class ex1():
             counter+=1
 
         end = time.time()
-        print()
 
         print('\t- Total tested cases: {}'.format(counter))
         if counter==trues:
@@ -104,7 +103,6 @@ class ex1():
             counter +=1
 
         end = time.time()
-        print()
 
         print('\t- Total tested cases: {}'.format(counter))
         if counter==trues:
@@ -125,15 +123,12 @@ class ex1():
             counter +=1
 
         end = time.time()
-        print()
 
         print('\t- Total tested cases: {}'.format(counter))
         if counter==trues:
             print('\t- Works fine in all tested cases.')
         print('\t- Elapsed time {}\n'.format(end - start))
         '''
-
-
 
 
 
