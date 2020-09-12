@@ -1,78 +1,63 @@
+// Divide and Conquer Algorithm. O(n log(n)).
 #include <stdio.h>
 
-#define max 10
+void mergeSort(int a[], int i, int j);
+void merge(int a[], int i1, int j1, int i2, int j2);
 
-int a[11] = { 102, 12, 12, 23, 4, 5, 6, 3, 43, 54, 11 };
-int b[10];
 
-void merge(int low, int mid, int high)
-{
-	int l1, l2, i;
+int main(){
+	int a[30], n, i;
 
-	for (l1 = low, l2 = mid + 1, i = low; l1 <= mid && l2 <= high; i++)
-	{
-		if (a[l1] <= a[l2])
-		{
-			b[i] = a[l1++];
-		}
-		else
-		{
-			b[i] = a[l2++];
-		}
+	printf("Enter number of elements: ");
+	scanf("%d", &n);
 
-		while (l1 <= mid)
-		{
-			b[i++] = a[l1++];
-		}
-		while (l2 <= high)
-		{
-			b[i++] = a[l2++];
-		}
+	printf("Enter array elements: ");
+	for (i = 0; i < n; i++)
+		scanf("%d", &a[i]);
 
-		for (i = low; i <= high; i++)
-		{
-			a[i] = b[i];
-		}
-	}
+	// Applying the algorighm
+	mergeSort(a, 0, n - 1);
 
+	printf("\nSorted array: ");
+	for (i = 0; i < n; i++)
+		printf("%d ", a[i]);
+
+	return 0;
 }
 
-void mergeSort(int low, int high)
-{
+
+void mergeSort(int a[], int i, int j){
 	int mid;
 
-	if (low < high)
-	{
-		mid = (low + high) / 2;
-		
-		mergeSort(low, mid);
-		mergeSort(mid + 1, high);
-		
-		merge(low, mid, high);
-	}
-	else
-	{
-		return;
+	if (i < j){
+		mid = (i + j) / 2;
+		mergeSort(a, i, mid);
+		mergeSort(a, mid + 1, j);
+
+		merge(a, i, mid, mid + 1, j);
 	}
 }
 
-int main()
-{
-	int i;
+void merge(int a[], int i1, int j1, int i2, int j2){
+	int temp[50];
+	int i, j, k;
+ 	i = i1;
+	j = i2;
+	k = 0;
 
-	printf("List before sorting\n");
-
-	for (i = 0; i <= max; i++)
-	{
-		printf("%d ", a[i]);
+	while (i <= j1 && j <= j2){
+		if (a[i] < a[j])
+			temp[k++] = a[i++];
+		else
+			temp[k++] = a[j++];
 	}
 
-	mergeSort(0, max);
+	while (i <= j1)
+		temp[k++] = a[i++];
+	while (j <= j2)
+		temp[k++] = a[j++];
 
-	printf("\nList after sorging\n");
-	
-	for (i = 0; i <= max; i++)
-	{
-		printf("%d ", a[i]);
-	}
+	// Transfer elements back from temp to a
+	for (i = i1, j = 0; i <= j2; i++, j++)
+		a[i] = temp[j];
 }

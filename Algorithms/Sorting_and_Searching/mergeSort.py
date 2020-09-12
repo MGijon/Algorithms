@@ -1,4 +1,4 @@
-"""TODO"""
+"""Divide and Conquer Algorithm. O(nlog(n))"""
 
 def mergeSort(array):
 
