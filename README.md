@@ -18,6 +18,12 @@ Study of Algorithms and Data Structures (implemented in different languages).
   - Sorting and Searching
   - Testing
 
+- Solved Exercises
+  - Arrays and Strings
+  - Linked Lists
+  - Stacks and Queues
+  - Trees and Graphs
+
 ***
 ## References:
 
@@ -39,3 +45,4 @@ Study of Algorithms and Data Structures (implemented in different languages).
 5. ''Curso Básico de Algoritmos'', (MOOC) Platzi.
 6. ''Curso de Introcucción a los Algoritmos de Ordenamiento'', (MOOC) Platzi.
 7. ''Curso de Algoritmos con C 2017'', (MOOC) Platzi.
+8. www.geeksforgeeks.org

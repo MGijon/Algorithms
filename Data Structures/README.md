@@ -1,0 +1,20 @@
+| Data Structure | Languages |
+| --- | --- |
+|Linked List     | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> |
+|Stack           | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> |
+|Queue           | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |
+|Binary Tree | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> |
+|Binary Search Tree | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |
+|Heap | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |
+|Hashing | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |
+|Graph | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |
+
+
+<!--
+None yet: <img src="https://img.shields.io/badge/-None%20Yet-orange">
+Python: <img src="https://img.shields.io/badge/-Python-blue">
+C: <img src="https://img.shields.io/badge/-C-black">
+C++: <img src="https://img.shields.io/badge/-C++-grey">
+Java: <img src="https://img.shields.io/badge/-Java-green">
+JavaScript: <img src="https://img.shields.io/badge/-JavaScript-yellow">
+-->
