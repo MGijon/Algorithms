@@ -22,7 +22,7 @@ print('===========')
 ex2.test()
 print('\n')
 
-print('\EXERCISE 3:')
+print('EXERCISE 3:')
 print('===========')
 
 print('\n')

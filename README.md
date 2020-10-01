@@ -35,12 +35,12 @@ Study of Algorithms and Data Structures (implemented in different languages).
 
 4. ''Data Structures and Algorithms (Specialization)''. University of California San Diego, Coursera.
 
-	* Algorithmc Toolbox. Part I of VI.
+  * Algorithmc Toolbox. Part I of VI.
   * Data Structures. Part II of VI.
   * Algorithmics on Graphs. Part III of VI.
   * Algorithmics on Strings. Part IV of VI.
   * Advanced Algorithms and Complexity. Part V of VI.
-	* Genome Assembly Programming Challenge. Part VI of VI.
+  * Genome Assembly Programming Challenge. Part VI of VI.
 
 5. ''Curso Básico de Algoritmos'', (MOOC) Platzi.
 6. ''Curso de Introcucción a los Algoritmos de Ordenamiento'', (MOOC) Platzi.
