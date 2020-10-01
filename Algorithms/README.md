@@ -1,22 +1,29 @@
+## Algorithms 
+***
 
-# Sorting_and_Searching
-	
-### Searching Algorithms
-	
-**Linear Search**
+### Bit Manipulation
 
-- O(n) time.
-- Implemented in C, Python.
+***
+### Sorting and Searching	
 
-**Binary Search**
+#### Searching Algorithms
 
-- O(logn) time.
-- Implemented in TODO DEBUGEGANDO VERSION C.
+| Algorithm | Complexity | Implementations |
+| --- | --- | --- |
+| Linear Search | O(n) | C, Python |
+| Binary Search | O(logn) | Python |
+| Jump Search | O(sqrt(n)) | |
+ 
+#### Sorting Algorithms	
 
-### Sorting Algorithms	
+| Algorithm | Complexity | Implementations|
+| --- | --- | --- |
+| Merge Sort | O(nlogn) | C, Python |
 
-**Merge Sort**
+***
 
-- O(nlogn) time.
-- Implemented in C, Python.
-	
+### Recursion and Dynamic Programming
+
+***
+
+### Object Oriented Design	
