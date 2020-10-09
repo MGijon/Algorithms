@@ -2,7 +2,7 @@
 | --- | --- |
 |Linked List     | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> |
 |Stack           | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> |
-|Queue           | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |
+|Queue           | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> |
 |Binary Tree | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> |
 |Binary Search Tree | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |
 |Heap | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |
