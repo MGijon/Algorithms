@@ -4,7 +4,7 @@
 |Stack           | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> |
 |Queue           | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> |
 |Binary Tree | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> |
-|Binary Search Tree | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |
+|Binary Search Tree | <img src="https://img.shields.io/badge/-Python-blue"> |
 |Heap | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |
 |Hashing | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |
 |Graph | <img src="https://img.shields.io/badge/-None%20Yet-orange"> |

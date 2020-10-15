@@ -12,20 +12,26 @@ def storeInOrder(root, ordered):
 
     storeInOrder(root.left, ordered)
     ordered.append(root.data)
-    storeInOrder(root.right)
+    storeInOrder(root.right, ordered)
 
 def countNodes(root):
     """Count the number of nodes in a given tree."""
     if root is None:
         return
     
-    nodes_left = countNodes(root.left)
-    nodes_right = countNodes(root.right)
-    try:
-        return(nodes_left + nodes_right + 1)
-    except:
-        print("Problem counting nodes.\n")
-        return(0)
+    if root.right==None:
+        rightNode = 0
+    else:
+        rightNode = countNodes(root.right)
+
+    if root.left==None:
+        leftNode = 0
+    else:
+        leftNode = countNodes(root.left)
+
+    numberOfNodes = rightNode + leftNode + 1
+
+    return numberOfNodes
 
 def arrayToBinarySearchTree(arr, root):
     """Create a Binary Search Tree from an array."""
