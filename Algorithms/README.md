@@ -1,4 +1,4 @@
-## Algorithms 
+## Algorithms
 
 * **Under Construction**.
 * Contains several algorithms, click in the link for pseudocode (at the end of this each section).
@@ -10,12 +10,12 @@
 | --- | --- | --- |
 | [Linear Search](#LinearSearch) | O(n) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black">|
 | [Binary Search](#BinarySearch) | O(logn) | <img src="https://img.shields.io/badge/-Python-blue">  |
-| [Jump Search](#JumpSearch) | O(sqrt(n)) | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |
+| [Jump Search](#JumpSearch) | O(sqrt(n)) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C++-grey"> |
 | [Interpolation Search](#InterpolationSearch) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
 | [Exponential Search](#ExponentialSearhc) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |
 
 <a name="LinearSearch"></a>
-**Linear Search** 
+**Linear Search**
 
 <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">
 
@@ -39,9 +39,9 @@
 
 <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">
 
-*** 
+***
 
-### Sorting Algorithms	
+### Sorting Algorithms
 
 | Algorithm | Complexity | Implementations|
 | --- | --- | --- |
@@ -86,8 +86,8 @@
 | [Breadth First Search (BFS)](#BFS) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
 | [Depth First Search (DFS)](#DFS) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
 | [Dijkstra](#Dijkstra) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |
-| [Floyd Warshall](#FloydWarshall) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> | 
-	
+| [Floyd Warshall](#FloydWarshall) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |
+
 <a name="BFS"></a>
 **Breadth First Search (BFS)**
 
@@ -117,9 +117,9 @@
 | --- | --- | --- |
 | [Longest Common Subsequence](#LCS) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |
 | [Longest Increasing Subsequence](#LIS) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |
-| [Edit Distance](#EditDistance) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> | 
+| [Edit Distance](#EditDistance) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |
 | [Minimun Partition](#MinimunPartition) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |
-| [Ways to Cover a Distance](#CoverDistance) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> | 
+| [Ways to Cover a Distance](#CoverDistance) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |
 | [Longest Path in Matrix](#LontestPathMatrix) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |
 | [Subset Sum Problem](#SubsetSumProblem) | | <img src="https://img.shields.io/badge/-TCooming%20Soon-orange"> |
 
