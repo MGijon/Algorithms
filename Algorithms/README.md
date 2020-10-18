@@ -8,8 +8,8 @@
 
 | Algorithm | Complexity | Implementations |
 | --- | --- | --- |
-| [Linear Search](#LinearSearch) | O(n) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black">  <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> |
-| [Binary Search](#BinarySearch) | O(logn) | <img src="https://img.shields.io/badge/-Python-blue">  |
+| [Linear Search](#LinearSearch) | O(n) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> <img src="https://img.shields.io/badge/-C-black"> |
+| [Binary Search](#BinarySearch) | Theta(logn) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> |
 | [Jump Search](#JumpSearch) | O(sqrt(n)) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> |
 | [Interpolation Search](#InterpolationSearch) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
 | [Exponential Search](#ExponentialSearhc) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |

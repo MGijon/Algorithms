@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int binarySearch(int array[], int l, int r, int x){
-	if (l <= r){
+	if (r >= l){
 		int m = l + (r - l) / 2;
 		
 		if (array[m] == x){
@@ -12,7 +12,7 @@ int binarySearch(int array[], int l, int r, int x){
 		if (array[m] > x){
 			return binarySearch(array, l, m - 1, x);
 		} else {
-			return binarySearch(array, m + 1, l, x);
+			return binarySearch(array, m + 1, r, x);
 		}
 
 	}	
