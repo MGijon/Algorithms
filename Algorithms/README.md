@@ -12,7 +12,7 @@
 | [Binary Search](#BinarySearch) | Theta(logn) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple">|
 | [Jump Search](#JumpSearch) | O(sqrt(n)) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> |
 | [Interpolation Search](#InterpolationSearch) | O(n)| <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> |
-| [Exponential Search](#ExponentialSearhc) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> |
+| [Exponential Search](#ExponentialSearhc) | O(logn) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> |
 
 <!-- <img src="https://img.shields.io/badge/-Cooming%20Soon-orange"> -->
 <a name="LinearSearch"></a>
