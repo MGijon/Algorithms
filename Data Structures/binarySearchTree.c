@@ -9,12 +9,7 @@ struct node{
 	struct node* right;
 };
 
-// Helper and utility functions 
-void storeInOrder(struct node* node, int ordered[], int* index);
-int countNodes(struct node* root);
-int compare(const void* a, const void* b);
-void fromArrayToBinarySearchTree(int* arr, struct node* root, int* index);
-
+// Helper functions
 void storeInOrder(struct node* node, int ordered[], int* index){
 	if (node == NULL)
 		return;
@@ -29,7 +24,7 @@ void storeInOrder(struct node* node, int ordered[], int* index){
 
 int countNodes(struct node* root){
 	if (root = NULL)
-		return;
+		return 0;
 
 	return countNodes(root->left) + countNodes(root->right) + 1;
 }
@@ -38,7 +33,7 @@ int compare(const void* a, const void* b){
 	return (*(int*)a - *(int*)b);
 }
 
-void fromArrayToBinarSearchTree(int* arr, struct node* root, int* index){
+void fromArrayToBinarySearchTree(int* arr, struct node* root, int* index){
 	if (root = NULL)
 		return;
 
@@ -55,10 +50,10 @@ void binaryTreeToBinarySearchTree(struct node* root){
 	// base case
 	if (root == NULL)
 		return;
-	
+
 	int n = countNodes(root);
 	// pass the element to an array
-	int* arr = new int[n];
+	int arr[n];
 	int i = 0;
 	storeInOrder(root, arr, &i);
 	// sort them
@@ -67,10 +62,19 @@ void binaryTreeToBinarySearchTree(struct node* root){
 	i = 0;
 	fromArrayToBinarySearchTree(arr, root, &i);
 	// free the memory
-	//delete[] arr;
+	free(arr);
 }
 
-// helper 
+// New node for the Binary Tree
+struct node* newNode(int data){
+	struct node* temp = (struct node*)malloc(sizeof(struct node)); //malloc(sizeof(struct node)); //(struct node*)malloc(sizeof(struct node));
+	temp->data = data;
+	temp->left = NULL;
+	temp->right = NULL;
+	return temp;
+}
+
+// helper
 void printInOrder(struct node* node){
 	if(node==NULL)
 		return;
@@ -79,15 +83,6 @@ void printInOrder(struct node* node){
 	printInOrder(node->right);
 }
 
-
-// New node for the Binary Tree
-struct node* newNode(int data){
-	struct node* temp = new struct node;
-	temp->data = data;
-	temp->left = NULL;
-	temp->right = NULL;
-	return temp;
-}
 
 // Driver function
 int main(){
@@ -106,5 +101,3 @@ int main(){
 
 	return 0;
 }
-
-

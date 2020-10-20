@@ -15,6 +15,9 @@ None yet: <img src="https://img.shields.io/badge/-None%20Yet-orange">
 Python: <img src="https://img.shields.io/badge/-Python-blue">
 C: <img src="https://img.shields.io/badge/-C-black">
 C++: <img src="https://img.shields.io/badge/-C++-grey">
-Java: <img src="https://img.shields.io/badge/-Java-green">
+Go: <img src="https://img.shields.io/badge/-Go-#7FFFD4">  // Aquamarine
+Kotlin: <img src="https://img.shields.io/badge/-Kotlin-#FF1493">    // DeepPink
+Java: <img src="https://img.shields.io/badge/-Java-red">
+PHP: <img src="https://img.shields.io/badge/-PHP-purple">
 JavaScript: <img src="https://img.shields.io/badge/-JavaScript-yellow">
 -->

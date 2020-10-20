@@ -1,6 +1,10 @@
 .DS_Store
 .idea
 
+*.swp
+*.swo
+
 Data\ Structures/compiled/
 
-Algorithms/Sorting_and_Searching/compiled
+Algorithms/Searching/compiled
+Algorithms/Sorting/compiled

@@ -6,7 +6,7 @@
 * Implementations in different languages.
 
 ***
- 
+
 ### Content
 
 - Data Structures
@@ -33,14 +33,13 @@
 
 ### Instructions
 
-* <img src="https://img.shields.io/badge/-Python-blue">
-* <img src="https://img.shields.io/badge/-R-green"> 
-* <img src="https://img.shields.io/badge/-C-black"> 
-* <img src="https://img.shields.io/badge/-C++-grey"> 
-* <img src="https://img.shields.io/badge/-Java-red">
-* <img src="https://img.shields.io/badge/-JavaScipt-yellow"> 
-* <img src="https://img.shields.io/badge/-R-green">
-* <img src="https://img.shields.io/badge/-PHP-purple">
+* <img src="https://img.shields.io/badge/-Python-blue"> :  
+* <img src="https://img.shields.io/badge/-R-green"> :
+* <img src="https://img.shields.io/badge/-C-black"> :
+* <img src="https://img.shields.io/badge/-C++-grey"> :
+* <img src="https://img.shields.io/badge/-Java-red"> :
+* <img src="https://img.shields.io/badge/-JavaScipt-yellow"> :
+* <img src="https://img.shields.io/badge/-PHP-purple"> :
 
 ***
 
