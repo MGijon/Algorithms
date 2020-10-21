@@ -10,7 +10,7 @@
 | --- | --- | --- |
 | [Linear Search](#LinearSearch) | O(n) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> |
 | [Binary Search](#BinarySearch) | Theta(logn) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple">|
-| [Ternary Search] (#TernarySearch) | Theta(logn) | <img src="https://img.shields.io/badge/-C++-grey"> |
+| [Ternary Search](#TernarySearch) | Theta(logn) | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [Jump Search](#JumpSearch) | O(sqrt(n)) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> |
 | [Interpolation Search](#InterpolationSearch) | O(n)| <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> |
 | [Exponential Search](#ExponentialSearhc) | O(logn) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> |
@@ -52,7 +52,7 @@
 
 | Algorithm | Complexity | Implementations|
 | --- | --- | --- |
-| [Merge Sort](#MergeSort) | O(nlogn) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black">|
+| [Merge Sort](#MergeSort) | O(nlogn) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> |
 | [Quick Sort](#QuickSort) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
 | [Bucket Sort](#BucketSort) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
 | [Heap Sort](#HeapSort) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |

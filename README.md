@@ -65,3 +65,5 @@
 7. [''Curso de Algoritmos con C 2017''](https://platzi.com/clases/algoritmos-2017/), (MOOC) Platzi.
 8. [''Curso de POO y Algoritmos con Python''](https://platzi.com/clases/poo-python/), (MOOC) Platzi.
 9. [Geeks for geeks](www.geeksforgeeks.org).
+
+<!-- http://www.contribution-guide.org/ -->
