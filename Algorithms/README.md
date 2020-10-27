@@ -53,7 +53,8 @@
 | Algorithm | Complexity | Implementations|
 | --- | --- | --- |
 | [Merge Sort](#MergeSort) | O(nlogn) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> |
-| [Quick Sort](#QuickSort) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
+| [Quick Sort](#QuickSort) | O(nlogn) [details](#QuickSort) | <img src="https://img.shields.io/badge/-C-black"> |
+| [Buble Sort](#BubleSort) | O(n^2) [details](#BubleSort) | <img src="https://img.shields.io/badge/-C-black"> |
 | [Bucket Sort](#BucketSort) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
 | [Heap Sort](#HeapSort) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
 | [Counting Sort](#CountingSort) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
@@ -66,7 +67,18 @@
 <a name="QuickSort"></a>
 **Quick Sort**
 
+* The common case is O(nlogn), but in extreme cases it can be O(n^2).
+
 <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">
+
+<a name="BubleSort"></a>
+**Buble Sort**
+
+* Average (and worst) case complexity: O(n^2). Worst case is when the array is sorted backwards.
+* Best case time complexity is O(n), when the array is already sorted.
+
+<img src="https://img.shields.io/badge/-Cooming%20Soon-orange">
+
 
 <a name="BucketSort"></a>
 **Bucket Sort**
