@@ -55,9 +55,9 @@
 | [Merge Sort](#MergeSort) | O(nlogn) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> |
 | [Quick Sort](#QuickSort) | O(nlogn) [details](#QuickSort) | <img src="https://img.shields.io/badge/-C-black"> |
 | [Buble Sort](#BubleSort) | O(n^2) [details](#BubleSort) | <img src="https://img.shields.io/badge/-C-black"> |
-| [Bucket Sort](#BucketSort) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
-| [Heap Sort](#HeapSort) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
-| [Counting Sort](#CountingSort) | | <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">  |
+| [Bucket Sort](#BucketSort) | O(n + (n^2)/k + k) [details](#BucketSort) | <img src="https://img.shields.io/badge/-Python-blue"> |
+| [Heap Sort](#HeapSort) | O(nlogn) [details](#HeapSort) | <img src="https://img.shields.io/badge/-Python-blue"> |
+| [Counting Sort](#CountingSort) | O(n) [details](#CountingSort) | <img src="https://img.shields.io/badge/-Python-blue">  |
 
 <a name="MergeSort"></a>
 **Merge Sort**
@@ -83,15 +83,25 @@
 <a name="BucketSort"></a>
 **Bucket Sort**
 
+* Wort case performance: O(n^2).
+* Average performance: O(n + (n^2)/k + k). Where k is the number of buckets. Notes that the average performance is approximate O(n) where n is close to k.
+* Worst case space complexity: O(kn). Again k is the number of buckets.
+
 <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">
 
 <a name="HeapSort"></a>
 **Heap Sort**
 
+* Average complexity: O(nlogn).
+* Worst complexity: O(n).
+
 <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">
 
 <a name="CountingSort"></a>
 **Counting Sort**
+
+* Worst case performance: O(n + k). k is the range of non-negative numbers.
+* Worst case space-complexity performance: O(n + k). k is the range of non-negative numbers.
 
 <img src="https://img.shields.io/badge/-Cooming%20Soon-orange">
 
