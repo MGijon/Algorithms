@@ -76,8 +76,6 @@
 
 * **References**: [Wikipedia](https://en.wikipedia.org/wiki/Jump_search), [2Braces](https://www.2braces.com/data-structures/jump-search), [iq.openginius](https://iq.opengenus.org/jump-search-algorithm/), [StudyTonight](https://www.studytonight.com/data-structures/jump-search-algorithm).
 
-<img src="https://img.shields.io/badge/-Cooming%20Soon-orange">
-
 <a name="InterpolationSearch"></a>
 ### **Interpolation Search**
 
@@ -139,8 +137,8 @@
 | Algorithm | Complexity | Implementations|
 | --- | --- | --- |
 | [Merge Sort](#MergeSort) | O(nlogn) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> |
-| [Quick Sort](#QuickSort) | O(nlogn) [details](#QuickSort) | <img src="https://img.shields.io/badge/-C-black"> |
-| [Buble Sort](#BubleSort) | O(n^2) [details](#BubleSort) | <img src="https://img.shields.io/badge/-C-black"> |
+| [Quick Sort](#QuickSort) | O(nlogn) [details](#QuickSort) | <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> |
+| [Buble Sort](#BubleSort) | O(n^2) [details](#BubleSort) | <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> |
 | [Bucket Sort](#BucketSort) | O(n + (n^2)/k + k) [details](#BucketSort) | <img src="https://img.shields.io/badge/-Python-blue"> |
 | [Heap Sort](#HeapSort) | O(nlogn) [details](#HeapSort) | <img src="https://img.shields.io/badge/-Python-blue"> |
 | [Counting Sort](#CountingSort) | O(n) [details](#CountingSort) | <img src="https://img.shields.io/badge/-Python-blue">  |
@@ -211,8 +209,6 @@
 ```
 
 * **References**: [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort), [Geeksforgeeks](https://www.geeksforgeeks.org/bubble-sort/), [Runestone](https://runestone.academy/runestone/books/published/pythonds/SortSearch/TheBubbleSort.html), [TutorialsPoint](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm).
-
-<img src="https://img.shields.io/badge/-Cooming%20Soon-orange">
 
 <a name="BucketSort"></a>
 ### **Bucket Sort**

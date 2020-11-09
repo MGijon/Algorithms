@@ -33,12 +33,34 @@
 
 ### Instructions
 
-* <img src="https://img.shields.io/badge/-Python-blue"> :  
+* <img src="https://img.shields.io/badge/-Python-blue"> :
+
+```
+python script.py
+``` 
+
 * <img src="https://img.shields.io/badge/-R-green"> :
+
 * <img src="https://img.shields.io/badge/-C-black"> :
+
+In case some flag is needed for the compiler, will be indicated in the script.
+
+```
+gcc script.c -o compiled/script
+```
+
 * <img src="https://img.shields.io/badge/-C++-grey"> :
+
+In case some flag is needed for the compiler, it will be indicated in the script.
+
+```
+g++ script.cpp -o compiled/script
+```
+
 * <img src="https://img.shields.io/badge/-Java-red"> :
+
 * <img src="https://img.shields.io/badge/-JavaScipt-yellow"> :
+
 * <img src="https://img.shields.io/badge/-PHP-purple"> :
 
 ***

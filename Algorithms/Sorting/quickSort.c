@@ -1,7 +1,7 @@
 /* Quick Sort. O(n^2) in the worst case, usually O(n logn). */
 #include <stdio.h>
 
-int chosePivot(int *arr, int l, int r){
+int choosePivot(int *arr, int l, int r){
 	// *arr: pointer to an unordered 1-Dimensional array.
 	// l: left index.
 	// r: right index.
@@ -30,9 +30,9 @@ int chosePivot(int *arr, int l, int r){
 void quickSort(int *arr, int l, int r){
 	// Performs quicksort.
 	int p;
-       	
+
 	if (l < r){
-		p = chosePivot(arr, l, r);
+		p = choosePivot(arr, l, r);
 		quickSort(arr, l, p - 1);
 		quickSort(arr, p + 1, r);
 	}
@@ -53,9 +53,7 @@ int main(void){
 	printf("Sorted array:\n", arr);
 	for (int i = 0; i < n; i++)
 		printf("%d ", arr[i]);
-	printf("\n");	
-	
+	printf("\n");
+
 	return 0;
 }
-
-	
