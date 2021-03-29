@@ -2,6 +2,22 @@
 * **Under Construction**.
 * Contains programming exercises and interview questions from diffent sources.
 * Implemented in different languages (links included) and with pseudocode.
+
+***
+#### Setting up 
+
+For running scripts in:
+* C:
+
+* C++:
+
+* Python: first install the packages using a virtual environment in Python 3 using the requiremets.txt file.
+
+*** 
+
+For executing testing in: 
+* Python: pytest -q filename.py
+
 ***
 
 #### Arrays and Strings
