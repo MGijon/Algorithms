@@ -20,4 +20,5 @@ Kotlin: <img src="https://img.shields.io/badge/-Kotlin-#FF1493">    // DeepPink
 Java: <img src="https://img.shields.io/badge/-Java-red">
 PHP: <img src="https://img.shields.io/badge/-PHP-purple">
 JavaScript: <img src="https://img.shields.io/badge/-JavaScript-yellow">
+Rust: <img src="https://img.shields.io/badge/-Rust-orange">
 -->
