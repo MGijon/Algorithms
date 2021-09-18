@@ -1,5 +1,5 @@
 /*
- * Binary Search implementathon in Theta(log n).
+ * Binary Search implementathon in JavaScript. Theta(log n).
  */
 
 function binarySearch(elements, start, end, x){
