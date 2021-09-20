@@ -41,6 +41,10 @@ python script.py
 
 * <img src="https://img.shields.io/badge/-R-green"> :
 
+```
+Rscript script.R
+```
+
 * <img src="https://img.shields.io/badge/-C-black"> :
 
 In case some flag is needed for the compiler, will be indicated in the script.
