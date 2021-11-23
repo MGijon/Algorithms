@@ -97,6 +97,7 @@ g++ script.cpp -o compiled/script
 <!--
 None yet: <img src="https://img.shields.io/badge/-None%20Yet-orange">
 Python: <img src="https://img.shields.io/badge/-Python-blue">
+R: <img src="https://img.shields.io/badge/-R-blue">
 C: <img src="https://img.shields.io/badge/-C-black">
 C++: <img src="https://img.shields.io/badge/-C++-grey">
 Go: <img src="https://img.shields.io/badge/-Go-#7FFFD4">  // Aquamarine
