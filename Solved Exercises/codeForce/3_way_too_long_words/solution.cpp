@@ -17,27 +17,29 @@ Print n lines. The i-th line should contain the result of replacing of the i-th 
 */
 #include <iostream>
 #include <string>
+using namespace std;
 
-std::string localizationString(std::string word){
-	int word_len = word.length();
-	char first_letter = word[0];		
-	char last_letter = word[word_len];
-  	std::string word_len_char = std::to_string(word_len);
-	return std::string(1, first_letter) + word_len_char + last_letter;
+string localizationString(string word){
+    int word_len = word.length() - 2;
+    char first_letter = word[0];		
+    char last_letter = word[word.length() - 1];
+    string word_len_char = to_string(word_len);
+    return string(1, first_letter) + word_len_char + last_letter;
 }
 
 int main(){
-  std::string line; // define the line object
+  string line;
   int counter = 0;
-  while (std::getline(std::cin, line)){
+  while (getline(cin, line)){
     if (counter != 0){
-		if (line.length() <= 10){
-      		std::cout << line << std::endl;
-		} else {
-			std::cout << localizationString(line) << std::endl;
-		}
- 	   counter++;
-	}
+      if (line.length() <= 10){
+        cout << line << endl;
+      } else {
+        string transformedString = localizationString(line);
+        cout << transformedString << endl;
+      }
+    }
+    counter += 1;
   }
   return 0;
 }
