@@ -15,18 +15,31 @@ The first line contains an integer n (1 ≤ n ≤ 100). Each of the foll
 Output
 Print n lines. The i-th line should contain the result of replacing of the i-th word from the input data.
 */
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
+#include <string>
 
-int main(){ 
-  if (inputString.size() > 1){
-    if (inputString.size() > 10){
-      string numberLetters = std::to_string(inputString.size());
-      cout << inputString[0] + numberLetters + inputString[inputString.size() - 1];
-    }
-    else{
-      cout << inputString;
-    }
-  }
+std::string localizationString(std::string word){
+	int word_len = word.length();
+	char first_letter = word[0];		
+	char last_letter = word[word_len];
+  	std::string word_len_char = std::to_string(word_len);
+	return std::string(1, first_letter) + word_len_char + last_letter;
 }
+
+int main(){
+  std::string line; // define the line object
+  int counter = 0;
+  while (std::getline(std::cin, line)){
+    if (counter != 0){
+		if (line.length() <= 10){
+      		std::cout << line << std::endl;
+		} else {
+			std::cout << localizationString(line) << std::endl;
+		}
+ 	   counter++;
+	}
+  }
+  return 0;
+}
+
 
