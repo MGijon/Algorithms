@@ -23,17 +23,27 @@ Output
 Print a single integer — the final value of x.
 */
 #include <iostream>
-#include <string>
+#include <cctype>
+
 using namespace std;
 
 int main(){
-  // CIN takes any space (whitespace, tabs, etc) as terminating character
-  string inputString;
-  getline(cin, inputString);
+  string line;  // to save the line values
+  int lineCounter = 0;
+  int counter = 0;
 
-  int value = stoi(inputString[0]);
+  while(getline(cin, line)){
+    if (lineCounter != 0){
+      if (line.find("+") != string::npos){
+        // we found the char '+' and we are assuming that if + appears it corresponds with the pressence of '++'
+        counter += 1;
+      } else {
+        counter -= 1;
+      }
 
-  for (int ind=0; ind<inputString.size(); ind++){
-    cout << inputString[ind];
+    }
+
+    lineCounter += 1;
   }
+  cout << counter << endl;
 }
