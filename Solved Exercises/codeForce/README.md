@@ -9,6 +9,7 @@ TODO: center badges
 | [A. Way Too Long Words](https://codeforces.com/contest/71/problem/A) | :white_check_mark: | 3_way_too_long_words/ | strings | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [A. Word Capitalization](https://codeforces.com/problemset/problem/281/A) | :white_check_mark: | 4_word_capitalization/ | implementation strings | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [A. Bit++](https://codeforces.com/problemset/problem/282/A) | :white_check_mark: | 5_bit++/ | implementation | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+| [A. Team](https://codeforces.com/problemset/problem/231/A) | :white_check_mark: | 6_team/ | brute force greedy | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 
 <!--
 :x:
