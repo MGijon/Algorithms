@@ -10,6 +10,7 @@ TODO: center badges
 | [A. Word Capitalization](https://codeforces.com/problemset/problem/281/A) | :white_check_mark: | 4_word_capitalization/ | implementation strings | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [A. Bit++](https://codeforces.com/problemset/problem/282/A) | :white_check_mark: | 5_bit++/ | implementation | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [A. Team](https://codeforces.com/problemset/problem/231/A) | :white_check_mark: | 6_team/ | brute force greedy | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+| [A, Divisibility Problem](https://codeforces.com/problemset/problem/1328/A) | :x: | 7_divisibility_problem/ | math | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 
 <!--
 :x:
@@ -26,4 +27,6 @@ PHP         : <img src="https://img.shields.io/badge/-PHP-purple">
 JavaScript  : <img src="https://img.shields.io/badge/-JavaScript-yellow">
 OCaml       : <img src="https://img.shields.io/badge/-OCaml-yellow">
 Rust        : <img src="https://img.shields.io/badge/-Rust-orange">
+
+FOCUS NOW: https://codeforces.com/problemset?order=BY_RATING_ASC&tags=800-800
 -->
