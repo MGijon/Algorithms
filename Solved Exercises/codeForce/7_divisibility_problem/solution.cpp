@@ -29,6 +29,26 @@ vector<int> splitString(string line)
   return v;
 };
 
+/**
+ * Output the number of steps to make the base number divisible by the divisor.
+ * @param base: base number
+ * @param divisor: divisor number
+ * @return void
+ */
+void outputNumberSteps(int base, int divisor)
+{
+  int number_of_steps = 0;
+
+  if (base % divisor == 0)
+  {
+    cout << number_of_steps << endl;
+  }
+  else
+  {
+    cout << divisor - (base % divisor) << endl;
+  }
+}
+
 int main()
 {
   string line;
@@ -38,17 +58,7 @@ int main()
     if (lineCounter != 0)
     {
       vector<int> numbers = splitString(line);
-      int base = numbers[0];
-      int divisor = numbers[1];
-
-      int number_of_steps = 0;
-
-      while (base % divisor != 0)
-      {
-        base += 1;
-        number_of_steps += 1;
-      }
-      cout << number_of_steps << endl;
+      outputNumberSteps(numbers[0], numbers[1]);
     }
     lineCounter += 1;
   }
