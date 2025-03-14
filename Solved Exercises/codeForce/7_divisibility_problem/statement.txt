@@ -1,0 +1,20 @@
+A. Divisibility Problem
+time limit per test1 second
+memory limit per test256 megabytes
+You are given two positive integers a and b. In one move you can increase 𝑎 by 1 (replace a with a + 1)). Your task is to find the minimum number of moves you need to do in order to make a divisible by b. It is possible, that you have to make 0 moves, as a is already divisible by b. You have to answer t independent test cases.
+
+Input
+The first line of the input contains one integer 𝑡
+ (1≤𝑡≤104
+) — the number of test cases. Then 𝑡
+ test cases follow.
+
+The only line of the test case contains two integers 𝑎
+ and 𝑏
+ (1≤𝑎,𝑏≤109
+).
+
+Output
+For each test case print the answer — the minimum number of moves you need to do in order to make 𝑎
+ divisible by 𝑏
+.
