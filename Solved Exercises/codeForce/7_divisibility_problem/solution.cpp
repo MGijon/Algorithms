@@ -37,11 +37,9 @@ vector<int> splitString(string line)
  */
 void outputNumberSteps(int base, int divisor)
 {
-  int number_of_steps = 0;
-
   if (base % divisor == 0)
   {
-    cout << number_of_steps << endl;
+    cout << 0 << endl;
   }
   else
   {
