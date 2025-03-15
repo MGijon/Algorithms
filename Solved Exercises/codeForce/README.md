@@ -11,6 +11,8 @@ TODO: center badges
 | [A. Bit++](https://codeforces.com/problemset/problem/282/A) | :white_check_mark: | 5_bit++/ | implementation | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [A. Team](https://codeforces.com/problemset/problem/231/A) | :white_check_mark: | 6_team/ | brute force greedy | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [A, Divisibility Problem](https://codeforces.com/problemset/problem/1328/A) | :white_check_mark: | 7_divisibility_problem/ | math | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+| [A. Die Roll](https://codeforces.com/problemset/problem/9/A) | :x: | 8_die_roll/ | math probabilities | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+| [A. Marathon](https://codeforces.com/problemset/problem/1692/A) | :x: | 9_marathon/ | implementation | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 
 <!--
 :x:
