@@ -15,7 +15,7 @@
 
 | Algorithm | Complexity | Implementations |
 | --- | --- | --- |
-| [Linear Search](#LinearSearch) | O(n) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> |
+| [Linear Search](#LinearSearch) | O(n) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> <img src="https://img.shields.io/badge/-R-blue">8|
 | [Binary Search](#BinarySearch) | Theta(logn) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple">|
 | [Ternary Search](#TernarySearch) | Theta(logn) | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [Jump Search](#JumpSearch) | O(sqrt(n)) | <img src="https://img.shields.io/badge/-Python-blue"> <img src="https://img.shields.io/badge/-C-black"> <img src="https://img.shields.io/badge/-C++-grey"> <img src="https://img.shields.io/badge/-Java-red"> <img src="https://img.shields.io/badge/-PHP-purple"> |
@@ -353,6 +353,7 @@
 <!--
 None yet: <img src="https://img.shields.io/badge/-None%20Yet-orange">
 Python: <img src="https://img.shields.io/badge/-Python-blue">
+R: <img src="https://img.shields.io/badge/-R-blue">
 C: <img src="https://img.shields.io/badge/-C-black">
 C++: <img src="https://img.shields.io/badge/-C++-grey">
 Go: <img src="https://img.shields.io/badge/-Go-#7FFFD4">  // Aquamarine
