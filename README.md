@@ -61,6 +61,12 @@ g++ script.cpp -o compiled/script
 
 * <img src="https://img.shields.io/badge/-JavaScipt-yellow"> :
 
+You have to have node installed. 
+
+```
+node script.js
+```
+
 * <img src="https://img.shields.io/badge/-PHP-purple"> :
 
 ***
