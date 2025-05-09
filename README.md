@@ -63,6 +63,12 @@ g++ script.cpp -o compiled/script
 
 * <img src="https://img.shields.io/badge/-PHP-purple"> :
 
+* <img src="https://img.shields.io/badge/-Rust-orange"> :
+
+```
+rustc scritp.rs
+```
+
 ***
 
 ### References:
