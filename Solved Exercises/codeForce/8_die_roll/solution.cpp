@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -14,21 +15,30 @@ vector<int> returnTwoNumbers(string line){
 int main()
 {
   string line; 
-  int numerator;
-  int denominator;
+  int YakkosResult;
+  int WakkosResult;
 
   while (getline(cin, line)){
-    numerator = returnTwoNumbers(line)[1];
-    denominator = returnTwoNumbers(line)[0];
+    YakkosResult = returnTwoNumbers(line)[1];
+    WakkosResult = returnTwoNumbers(line)[0];
   }
-  if (
-      (numerator % 2) && (denominator % 2) 
-     ){
-    numerator = numerator / 2;
-    denominator = denominator / 2;
-  }
-  string output = buildIrreducibleFraction(numerator, denominator);
-  cout << output << endl;
+  int maxResult = std::max(YakkosResult, WakkosResult);
+
+  if (maxResult == 1) {
+    cout << "1/1" << endl;
+  } else if (maxResult == 2) {
+    cout << "5/6" << endl;
+  } else if (maxResult == 3) {
+    cout << "2/3" << endl;
+  } else if (maxResult == 4) {
+    cout << "1/2" << endl;
+  } else if (maxResult == 5) {
+    cout << "1/3" << endl; 
+  } else if (maxResult == 6) {
+    cout << "1/6" << endl;
+  }; 
+  
+
 
   return 0;
 }
