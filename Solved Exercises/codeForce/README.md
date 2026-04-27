@@ -13,6 +13,9 @@ TODO: center badges
 | [A, Divisibility Problem](https://codeforces.com/problemset/problem/1328/A) | :white_check_mark: | 7_divisibility_problem/ | math | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [A. Die Roll](https://codeforces.com/problemset/problem/9/A) | :white_check_mark: | 8_die_roll/ | math probabilities | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [A. Marathon](https://codeforces.com/problemset/problem/1692/A) | :white_check_mark: | 9_marathon/ | implementation | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+| [A. Next Round](https://codeforces.com/problemset/problem/158/A) | :white_check_mark: | 10_next_round/ | special problem, implementation | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+| [A. Domino piling](https://codeforces.com/problemset/problem/50/A) | :white_check_mark: | 11_domino_piling/ | greedy, math | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+| [A. Helpful Maths](https://codeforces.com/problemset/problem/339/A) | :white_check_mark: | 12_helpful_maths/ | greedy, implementation, sortings, strings | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 
 <!--
 :x:
