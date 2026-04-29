@@ -16,6 +16,11 @@ TODO: center badges
 | [A. Next Round](https://codeforces.com/problemset/problem/158/A) | :white_check_mark: | 10_next_round/ | special problem, implementation | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [A. Domino piling](https://codeforces.com/problemset/problem/50/A) | :white_check_mark: | 11_domino_piling/ | greedy, math | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
 | [A. Helpful Maths](https://codeforces.com/problemset/problem/339/A) | :white_check_mark: | 12_helpful_maths/ | greedy, implementation, sortings, strings | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+| [A. Beautiful Matrix](https://codeforces.com/problemset/problem/263/A) | :white_check_mark: | 13_beautiful_matrix/ | implementation | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+| [A. Petya and String](https://codeforces.com/problemset/problem/112/A) | :white_check_mark: | 14_petya_and_strings/ | implementation, strings | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+| [A. Bear and Big Brother](https://codeforces.com/problemset/problem/791/A) | :x: | 15_bear_and_big_brother/ | implementation | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+| []() | :x: | / |  | 800 | <img src="https://img.shields.io/badge/-C++-grey"> |
+
 
 <!--
 :x:
